@@ -1,0 +1,10 @@
+create table firstname (id int not null primary key, name varchar(20) not null);
+create table secondname (id int not null primary key, name varchar(20) not null);
+INSERT INTO firstname (ID,NAME) VALUES (1,'ivan');
+INSERT INTO firstname (ID,NAME) VALUES (2,'igor');
+INSERT INTO firstname (ID,NAME) VALUES (3,'fedot');
+INSERT INTO firstname (ID,NAME) VALUES (4,'gena');
+INSERT INTO secondname (ID,NAME) VALUES (5,'ivanov');
+INSERT INTO secondname (ID,NAME) VALUES (6,'petrov');
+INSERT INTO secondname (ID,NAME) VALUES (7,'sidorov');
+INSERT INTO secondname (ID,NAME) VALUES (8,'tramp');
